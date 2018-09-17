@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+@font-face {
+    src: url(sansation_light.woff);
+}
+
+
+/* *{
+    font-family: 'Gamja Flower', cursive;
+}*/
+
+h1 {
+    font-family: 'Gamja Flower', negrilla;
+    color: #121279;
+    letter-spacing: 5px;
+    size: 2000;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial;
+    color: #0d55a77e;
+    letter-spacing: 5px;
+    size: 1000;
+    text-align: left;
+}
+
+h3 {
+    color: #350a09;
+    letter-spacing: 5px;
+    size: 500;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Gamja Flower', negrilla !important;
+    color: #790604;
+    letter-spacing: 5px;
+    size: 500;
+}
+
+#contenedor {
+    margin-botton: 10px;
+}
+
+.contenedor {
+    border: 3px solid #3f10ab;
+    padding-left: 375px;
+    border-radius: 150px
+}
+
+p {
+    text-align: justify;
+}

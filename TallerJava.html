@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        //javascript goes here
+    </script>
+
+</head>
+
+<body>
+    <script>
+        //Array
+        var productos = ["Leche", "huevos", "pan", "chocolate"];
+        var Precios = ["1000", "2000", "3000", "4000"];
+        console.log(productos.length);
+        for (k in Precios)
+            console.log(Precios[k]);
+        var verduras = ["Zanahoria", "Habichuela", "Pepino", "Espinaca"];
+        var zanahoria = 200
+        var Habichuela = 300
+        var Pepino = 400
+        var Espinaca = 500
+        var subtotal = [zanahoria + Habichuela + Pepino + Espinaca];
+        var iva = 1.19;
+        total = subtotal * iva;
+        var bool = Boolean(subtotal > Espinaca) //Verdadero
+        console.log("el total es: ", total, "\n y quiero imprimir es verdadero ", bool)
+
+        // Objetos
+
+        var TipoVerdura1 = {
+            tipo: "remolacha",
+            precio: 200,
+            Color: "morada"
+        }
+        console.log(TipoVerdura1);
+        var TipoVerdura2 = {
+            tipo: "Lechuga",
+            precio: 300,
+            Color: "Verde"
+        }
+        console.log(TipoVerdura2);
+        var bool1 = Boolean(
+            TipoVerdura1.precio > TipoVerdura2.precio
+        );
+        console.log(bool1)
+    </script>
+
+</body>
+
+</html

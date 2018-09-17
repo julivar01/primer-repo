@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Taller DOM 1 </title>
+
+    <script>
+        // Funcion Eliminar********************************************************
+        function Eliminar() {
+            document.getElementById("prueba-list").children[0].remove()
+        }
+        //*************************************************************************
+        // Funcion Adicionar*******************************************************
+        var Entrada = function() {
+                var textoEntrada = document.getElementById("texto-entrada").value;
+                var nodo = document.createElement("li");
+                var textoNodo = document.createTextNode(textoEntrada);
+                nodo.appendChild(textoNodo);
+                document.getElementById("prueba-lista").appendChild(nodo)
+            }
+            //*************************************************************************
+    </script>
+</head>
+
+<body>
+    <!--// Funcion Eliminar********************************************************/-->
+    <button onclick="Eliminar()">Oprima</button>
+    <div class="row">
+        <ul id="prueba-list">
+            <li>Julio</li>
+            <li>Jose</li>
+            <li>
+                <span>Camilo</span>
+            </li>
+            <li>Cesar</li>
+            <li>Luis</li>
+            <li>Orlando</li>
+        </ul>
+    </div>
+    <!--//*************************************************************************/-->
+    <hr>
+    <!--// Crea una linea de separacion*********************************************/-->
+    <h2>Segundo Ejercicio</h2>
+    <!--// Funcion Adicionar*******************************************************/-->
+    <div class="row">
+        <ol id="prueba-lista">
+            <li>Camilo</li>
+            <li>Julio</li>
+            <li>Jose</li>
+        </ol>
+    </div>
+    <hr>
+    <!--// Crea una linea de separacion**********************************************-->
+    <div class="row">
+        <div class="col-10">
+            <input type="text" id="texto-entrada">
+        </div>
+        <div class="col-2">
+            <button onclick="Entrada()">Adiciona un Texto</button>
+        </div>
+        <!--//*************************************************************************-->
+
+</body>
+
+</html>

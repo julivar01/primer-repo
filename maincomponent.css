@@ -1,0 +1,40 @@
+            @import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+            h1 {
+                font-family: Arial;
+                color: #f51d0d;
+                letter-spacing: 5px;
+                size: 2000;
+                text-align: center;
+            }
+            
+            .contenedor {
+                margin-bottom: 10px;
+                background-color: blue
+            }
+            
+            .col {
+                border: 12px solid blueviolet;
+                background-color: greenyellow
+            }
+            
+            #contenedor-dos .alert {
+                border: 3px solid orange;
+                background-color: gray;
+                width: 30%;
+                text-align: center;
+            }
+            
+            #contenedor1 li {
+                border: 3px solid black;
+                background-color: gray;
+                width: 30%;
+                text-align: center;
+                margin: 5px
+            }
+            
+            .container,
+            form,
+            .contenedor,
+            #contenedor-dos {
+                margin: 50px;
+            }
